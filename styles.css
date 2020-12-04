@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e2e9ee;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.nav-wrapper {
+    background-color: #a8c3f3;
+    /* background-color: #e2e9ee; */
+    
+}
+
+.navtext {
+    color: #222;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.name{
+    margin-left: 1rem;
+    color: #222;
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+}
+
+.kellynpic {
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 35px;
+    border: 2px;
+    border-color: #222;
+ 
+}
+
+.missionstatement {
+    margin-top: 35px;
+}
+
+.page-footer {
+    background-color: #a8c3f3;
+}
+
+.footer-copyright {
+    color: #222!important;
+}
+
