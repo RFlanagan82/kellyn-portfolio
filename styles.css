@@ -13,22 +13,19 @@ body {
 hr {
     width: 50%;
     margin: 0 auto;
+    margin-bottom: 3rem;
 }
 
 a:hover {
     color: whitesmoke!important;
 }
 
-.box {
-    width: 50%;
-    float: left;
-    margin-top: 25px;
+#linkedin {
+    float: right!important;
 }
 
 .nav-wrapper {
     background-color: #a8c3f3;
-    /* background-color: #e2e9ee; */
-    
 }
 
 .brand-logo {
@@ -61,19 +58,14 @@ main {
     margin-top: 35px;
     border: 2px;
     border-color: #222;
- 
 }
 
-.missionstatement {
-    margin-top: 35px;
+.quote {
+    font-size: 20px;
 }
 
-.work {
-    margin-top: 3rem;
-}
-
-.workheader {
-    margin-left: 2rem;
+.card-action {
+    float: right;
 }
 
 .flexbox-item {
@@ -94,23 +86,22 @@ main {
     margin-top: 2rem;
 }
 
-.blurb {
-    margin-left: 2rem;
-    margin-top: 2rem;
-}
-
 .page-footer {
     background-color: #a8c3f3;
+    width: 100%;
 }
 
-.footer-copyright {
+.footercontainer {
     color: #222!important;
     font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;;
 }
 
 .right:hover {
-    color: whitesmoke!important;
+    color: whitesmoke;
 }
+
 
 @media screen and (max-width: 600px) {
     .aboutme {
