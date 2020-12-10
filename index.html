@@ -37,7 +37,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav>
+    <nav class="z-depth-0">
       <div class="nav-wrapper">
         <a href="index.html" class="brand-logo">Kellyn Flanagan</a>
         <a href="#" class="sidenav-trigger" data-target="mobile-nav">
@@ -46,7 +46,6 @@
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="index.html" class="navtext">work</a></li>
           <li><a href="about.html" class="navtext">about</a></li>
-          <li><a href="resume.html" class="navtext">resume</a></li>
         </ul>
       </div>
     </nav>
@@ -55,7 +54,6 @@
     <ul class="sidenav" id="mobile-nav">
       <li><a href="index.html" class="navtext active">Work</a></li>
       <li><a href="about.html" class="navtext">About</a></li>
-      <li><a href="resume.html" class="navtext">Resume</a></li>
     </ul>
 
     <!-- body -->
@@ -67,43 +65,76 @@
           class="kellynpic"
           style="height: 80px; width: 80px; display: inline"
         />
-        <h5 class="name" style="display: inline">Hi, I'm Kellyn 🤙</h5>
+        <h4 class="name" style="display: inline">Hi, I'm Kellyn 🤙</h4>
         <div>
-          <h2>
+          <h3>
             I am an Experience Design leader who is passionate about people and
             their stories.
-          </h2>
+          </h3>
           <br />
         </div>
-        <hr />
-      </div>
-      <div class="col s12 m7">
-        <div class="card horizontal">
-          <div class="card-image">
-            <img src="https://wrightoncomm.com/wp-content/uploads/2016/04/creative-writing.jpg" style="width: 380px; height: 280px" />
-          </div>
-          <div class="card-stacked">
-            <div class="card-content">
-              <p class="quote">
-                “Storytelling is the most powerful way to put ideas into the world.” <br><br>
-                – Robert McKee
-              </p>
+
+        <div class="links">
+            <div class="col s12 md8 lg6 links">
+                <a
+                href="https://www.linkedin.com/in/kellynflanagan/"
+                id="linkedin"
+                >Find me on LinkedIn</a
+              >
+                <a
+                href="#"
+                id="resume"
+                >Check out my Resume</a
+              >
             </div>
-            <div class="card-action indigo darken-4">
-              <a href="https://www.linkedin.com/in/kellynflanagan/" id="linkedin">Find me on LinkedIn</a>
+        </div>
+
+        <!-- Body Content -->
+        <div class="row maincontent">
+         <header class="maincontentheader">
+             <h4>Work</h4>
+         </header>
+          <div class="col s12">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="https://prod-cdn-thekrazycouponlady.imgix.net/wp-content/uploads/2020/01/20200113-home-depot-shopping-hacks-clearance-price-tags-ending-in-six-023-1579031225.jpg?auto=compress,format&fit=max"
+                />
+                <span class="card-title"></span>
+              </div>
             </div>
+              <div class="card-text">
+                <h5>Merchant Pricing 1</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nisi porro perspiciatis harum sapiente dolorum!
+                </p>
+              </div>
           </div>
         </div>
-      </div>
-
-      
+        
+        <div class="row maincontent">
+          <div class="col s12">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="https://assets1.pathtopurchaseiq.com/styles/image_gallery_item_small/s3/2018-08-23-Home-Depot-Mount-Prospect-IL028_3.jpg?itok=tzpafkoo"
+                />
+                <span class="card-title"></span>
+              </div>
+            </div>
+              <div class="card-text">
+                <h5>Paint UX</h5>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia voluptatibus deleniti repellat tempora quis consequuntur!
+                </p>
+              </div>
+          </div>
+        </div>
     </main>
 
     <!-- Footer -->
     <footer class="page-footer">
-        <div class="footercontainer">
-          © 2020 - Kellyn Flanagan
-        </div>
+      <div class="footercontainer">© 2020 - Kellyn Flanagan</div>
     </footer>
   </body>
 </html>
