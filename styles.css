@@ -15,7 +15,7 @@ body {
 }
 
 .links {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 #linkedin {
@@ -38,7 +38,7 @@ body {
 .maincontentheader {
   font-family: "Caveat", cursive;
   font-size: 36px;
-  font-weight: bolder; 
+  font-weight: bolder;
   justify-content: center;
   text-align: center;
   margin-bottom: 15px;
@@ -71,6 +71,10 @@ main {
   flex: 1 0 auto;
 }
 
+.rubik {
+  font-family: "Rubik", sans-serif;
+}
+
 .name {
   margin-left: 1rem;
   color: #222;
@@ -87,16 +91,37 @@ main {
 }
 
 .kellynaboutmepic {
-    width: 30%;
-    margin: 20px;
-    padding: 5px;
-    float: left;
+  width: 30%;
+  margin: 20px;
+  padding: 5px;
+  float: left;
 }
 
 .aboutmetext {
   color: #222;
   font-family: "Caveat", cursive;
   font-size: 30px;
+}
+
+
+.latestheader {
+    margin-left: 20px;
+}
+
+.books {
+    float: left;
+    margin-left: 20%;
+}
+
+
+.learning {
+    float: left;
+    margin-left: 20%;
+}
+
+.obsession {
+    float: left;
+    margin-left: 20%;
 }
 
 .page-footer {
@@ -113,19 +138,6 @@ main {
 
 .right:hover {
   color: whitesmoke;
-}
-
-@media screen and (max-width: 600px) {
-  .aboutme {
-    flex-wrap: wrap;
-    margin-left: 2rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .flexbox-item-pic {
-    justify-content: center;
-  }
 }
 
 @media screen and (max-width: 425px) {
