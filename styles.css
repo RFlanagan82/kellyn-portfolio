@@ -91,7 +91,7 @@ main {
 }
 
 .kellynaboutmepic {
-  width: 20%;
+  width: 16.5%;
   margin: 20px;
   padding: 5px;
   float: left;
@@ -103,25 +103,16 @@ main {
   font-size: 30px;
 }
 
-
 .latestheader {
-    margin-left: 20px;
-}
-
-.books {
-    float: left;
-    margin-left: 20%;
+  margin-left: 20px;
 }
 
 
-.learning {
-    float: left;
-    margin-left: 20%;
-}
+.latestelementsection {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
 
-.obsession {
-    float: left;
-    margin-left: 20%;
 }
 
 .page-footer {
@@ -145,3 +136,9 @@ main {
     font-size: 20px !important;
   }
 }
+
+/* @media screen and (max-width: 425px) {
+  .brand-logo {
+    font-size: 20px !important;
+  }
+} */
