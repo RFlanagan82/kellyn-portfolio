@@ -14,9 +14,6 @@ body {
   box-shadow: none !important;
 }
 
-.links {
-  margin-bottom: 35px;
-}
 
 #linkedin {
   font-family: "Rubik", sans-serif;
@@ -44,9 +41,9 @@ body {
   margin-bottom: 15px;
 }
 
-.maincontent {
+/* .maincontent {
   margin: 20px;
-}
+} */
 
 .card-image {
   float: left;
@@ -57,7 +54,7 @@ body {
 .brand-logo {
   margin-left: 20px;
   color: #222 !important;
-  font-family: "Caveat", cursive;
+  font-family: "Barlow", sans-serif;
   font-size: 36px !important;
 }
 
@@ -78,13 +75,12 @@ main {
 .name {
   margin-left: 1rem;
   color: #222;
-  font-family: "Caveat", cursive;
+  font-family: "Barlow", sans-serif;
   font-size: 28px;
 }
 
 .kellynpic {
   border-radius: 50%;
-  margin-left: 25px;
   margin-top: 35px;
   border: 2px;
   border-color: #222;
