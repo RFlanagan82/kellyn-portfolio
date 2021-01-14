@@ -14,31 +14,29 @@ body {
   box-shadow: none !important;
 }
 
-
 #linkedin {
-  font-family: "Rubik", sans-serif;
+  font-family: "rubik", sans-serif;
   font-weight: bold;
   font-size: 18px;
   color: navy;
-  justify-content: center;
 }
 
 #resume {
   float: right;
-  font-family: "Rubik", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: bold;
   font-size: 18px;
   color: navy;
-  justify-content: center;
 }
 
-.maincontentheader {
-  font-family: "Caveat", cursive;
-  font-size: 36px;
+.workheader {
+  display: flex;
+  font-family: "Barlow", sans-serif;
   font-weight: bolder;
   justify-content: center;
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 45px;
+  font-size: 40px;
 }
 
 /* .maincontent {
@@ -47,7 +45,7 @@ body {
 
 .card-image {
   float: left;
-  width: 50%;
+  width: 40%;
   padding-right: 3rem;
 }
 
@@ -60,7 +58,7 @@ body {
 
 .navtext {
   color: #222;
-  font-family: "Rubik", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 22px;
 }
 
@@ -70,6 +68,10 @@ main {
 
 .rubik {
   font-family: "Rubik", sans-serif;
+}
+
+.barlow {
+  font-family: "Barlow", sans-serif;
 }
 
 .name {
