@@ -31,10 +31,10 @@ body {
 
 .workheader {
   display: flex;
-  font-family: "Barlow", sans-serif;
-  font-weight: bolder;
+  /* font-family: "rubik", sans-serif; */
   justify-content: center;
   text-align: center;
+  margin-top: 35px;
   margin-bottom: 45px;
   font-size: 40px;
 }
