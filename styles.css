@@ -93,6 +93,11 @@ main {
   float: left;
 }
 
+.passwordinstructions {
+  color: navy;
+  font-size: 16px;
+}
+
 .aboutmetext {
   color: #222;
   font-family: "Caveat", cursive;
@@ -103,12 +108,10 @@ main {
   margin-left: 20px;
 }
 
-
 .latestelementsection {
   display: flex;
   justify-content: space-around;
   margin-bottom: 50px;
-
 }
 
 .page-footer {
